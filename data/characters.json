@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0 ,
+        "name": "Bluey Heeler",
+        "gender": "Female",
+        "age": 6,
+        "breed": "heeler",
+        "description": "Bluey is a playful and curious six-year-old Blue Heeler pup who loves to explore the world around her with boundless energy and imagination. She's adventurous, creative, and often finds joy in simple things, whether it's playing pretend games with her family or going on exciting adventures in her backyard. With her infectious enthusiasm and big heart, Bluey embodies the spirit of childhood wonder and the importance of friendship and family.",
+        "locations":[
+
+        ],
+        "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
+        "website-link": "https://www.bluey.tv/characters/bluey/"
+
+    }
+]
