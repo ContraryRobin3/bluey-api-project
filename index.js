@@ -39,6 +39,14 @@ app.get("/characters/:id", (req, res) => {
   }
 });
 
+/// TODO GET request character by name
+
+/// TODO GET request all characters by breed
+
+/// TODO GET request location random
+
+/// TODO GET request location by Id
+
 // Configure port that server will run on
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
