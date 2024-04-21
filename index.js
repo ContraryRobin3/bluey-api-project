@@ -27,6 +27,18 @@ app.get("/characters/random", (req, res) => {
   res.json(characters[randomIndex]);
 });
 
+// GET request for character by id
+app.get("/characters/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const foundCharacter = characters.find((character) => character.id === id);
+  console.log(foundCharacter);
+  if (foundCharacter) {
+    res.json(foundCharacter);
+  } else {
+    res.sendStatus(404);
+  }
+});
+
 // Configure port that server will run on
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
