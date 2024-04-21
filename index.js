@@ -27,21 +27,44 @@ app.get("/characters/random", (req, res) => {
   res.json(characters[randomIndex]);
 });
 
+// GET request for all characters
+app.get("/characters", (req, res) => {
+  res.json(characters);
+});
+
+/// GET request filtered character list
+app.get("/characters/filter", (req, res) => {
+  const name = req.query.name;
+  const breed = req.query.breed;
+  let foundCharacters = characters;
+
+  // If name query is present filter on name
+  if (name) {
+    foundCharacters = foundCharacters.filter((character) =>
+      character.name.toLowerCase().includes(name.toLowerCase())
+    );
+  }
+
+  // If breed query is present filter on breed
+  if (breed) {
+    foundCharacters = foundCharacters.filter(
+      (character) => character.breed === breed
+    );
+  }
+
+  res.json(foundCharacters);
+});
+
 // GET request for character by id
 app.get("/characters/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const foundCharacter = characters.find((character) => character.id === id);
-  console.log(foundCharacter);
   if (foundCharacter) {
     res.json(foundCharacter);
   } else {
     res.sendStatus(404);
   }
 });
-
-/// TODO GET request character by name
-
-/// TODO GET request all characters by breed
 
 /// TODO GET request location random
 
