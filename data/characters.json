@@ -1,44 +1,622 @@
 [
-    {
-        "id": 1 ,
-        "name": "Bluey Heeler",
-        "gender": "Female",
-        "age": 6,
-        "breed": "heeler",
-        "description": "Bluey is a playful and curious six-year-old Blue Heeler pup who loves to explore the world around her with boundless energy and imagination. She's adventurous, creative, and often finds joy in simple things, whether it's playing pretend games with her family or going on exciting adventures in her backyard. With her infectious enthusiasm and big heart, Bluey embodies the spirit of childhood wonder and the importance of friendship and family.",
-        "locations":[
-
-        ],
-        "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
-        "website-link": "https://www.bluey.tv/characters/bluey/"
-
-    },
-    {
-        "id": 2 ,
-        "name": "Bandit Heeler",
-        "gender": "Female",
-        "age": 6,
-        "breed": "heeler",
-        "description": "Bluey is a playful and curious six-year-old Blue Heeler pup who loves to explore the world around her with boundless energy and imagination. She's adventurous, creative, and often finds joy in simple things, whether it's playing pretend games with her family or going on exciting adventures in her backyard. With her infectious enthusiasm and big heart, Bluey embodies the spirit of childhood wonder and the importance of friendship and family.",
-        "locations":[
-
-        ],
-        "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
-        "website-link": "https://www.bluey.tv/characters/bluey/"
-
-    },
-    {
-        "id": 3 ,
-        "name": "Jack Russell",
-        "gender": "Female",
-        "age": 6,
-        "breed": "Russell",
-        "description": "Bluey is a playful and curious six-year-old Blue Heeler pup who loves to explore the world around her with boundless energy and imagination. She's adventurous, creative, and often finds joy in simple things, whether it's playing pretend games with her family or going on exciting adventures in her backyard. With her infectious enthusiasm and big heart, Bluey embodies the spirit of childhood wonder and the importance of friendship and family.",
-        "locations":[
-
-        ],
-        "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
-        "website-link": "https://www.bluey.tv/characters/bluey/"
-
-    }
+  {
+    "id": 1,
+    "name": "Trixie Heeler",
+    "gender": "Female",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Trixie.png",
+    "website-link": "https://www.bluey.tv/characters/aunt-trixie/"
+  },
+  {
+    "id": 2,
+    "name": "Brandy Cattle",
+    "gender": "Female",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Brandy.png",
+    "website-link": "https://www.bluey.tv/characters/aunty-brandy/"
+  },
+  {
+    "id": 3,
+    "name": "Bandit Heeler",
+    "gender": "Male",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bandit.png",
+    "website-link": "https://www.bluey.tv/characters/bandit/"
+  },
+  {
+    "id": 4,
+    "name": "Bartlebee",
+    "gender": "Male",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/11/Brtlebee.png",
+    "website-link": "https://www.bluey.tv/characters/bartlebee/"
+  },
+  {
+    "id": 5,
+    "name": "Bentley",
+    "gender": "Female",
+    "breed": "Cavalier King Charles Spaniel",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bentley.png",
+    "website-link": "https://www.bluey.tv/characters/bentley/"
+  },
+  {
+    "id": 6,
+    "name": "Bingo Heeler",
+    "gender": "Female",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/B2.png",
+    "website-link": "https://www.bluey.tv/characters/bingo/"
+  },
+  {
+    "id": 7,
+    "name": "Bluey Christine Heeler",
+    "gender": "Female",
+    "breed": "Blue Heeler",
+    "description": "Bluey is a playful and curious six-year-old Blue Heeler pup who loves to explore the world around her with boundless energy and imagination. She's adventurous, creative, and often finds joy in simple things, whether it's playing pretend games with her family or going on exciting adventures in her backyard. With her infectious enthusiasm and big heart, Bluey embodies the spirit of childhood wonder and the importance of friendship and family.",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
+    "website-link": "https://www.bluey.tv/characters/bluey/"
+  },
+  {
+    "id": 8,
+    "name": "Buddy",
+    "gender": "Male",
+    "breed": "Pug",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Buddy.png",
+    "website-link": "https://www.bluey.tv/characters/buddy/"
+  },
+  {
+    "id": 9,
+    "name": "Busker",
+    "gender": "Male",
+    "breed": "Irish Terrier",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Busker.png",
+    "website-link": "https://www.bluey.tv/characters/busker/"
+  },
+  {
+    "id": 10,
+    "name": "Bucky Dunstan",
+    "gender": "Male",
+    "breed": "Toy Fox Terrier",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/04/Bucky-Large.png",
+    "website-link": "https://www.bluey.tv/characters/bucky/"
+  },
+  {
+    "id": 11,
+    "name": "Calypso",
+    "gender": "Female",
+    "breed": "Australian Shepherd",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Calypso.png",
+    "website-link": "https://www.bluey.tv/characters/calypso/"
+  },
+  {
+    "id": 12,
+    "name": "Chilli Heeler",
+    "gender": "Female",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Chilli.png",
+    "website-link": "https://www.bluey.tv/characters/chilli/"
+  },
+  {
+    "id": 13,
+    "name": "Chilli’s Mum",
+    "gender": "",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/Chillis_Mum.webp",
+    "website-link": "https://www.bluey.tv/characters/chillis-mum/"
+  },
+  {
+    "id": 14,
+    "name": "Chloe",
+    "gender": "Female",
+    "breed": "Dalmation",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Untitled-1.png",
+    "website-link": "https://www.bluey.tv/characters/chloe/"
+  },
+  {
+    "id": 15,
+    "name": "Chucky",
+    "gender": "Male",
+    "breed": "Labrador Retriever",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/CHUCKY.png",
+    "website-link": "https://www.bluey.tv/characters/chucky/"
+  },
+  {
+    "id": 16,
+    "name": "Coco",
+    "gender": "Female",
+    "breed": "Poodle",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Coco.png",
+    "website-link": "https://www.bluey.tv/characters/coco/"
+  },
+  {
+    "id": 17,
+    "name": "Digger",
+    "gender": "Male",
+    "breed": "Red Kelpie",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/Digger.png",
+    "website-link": "https://www.bluey.tv/characters/digger/"
+  },
+  {
+    "id": 18,
+    "name": "Doreen",
+    "gender": "Female",
+    "breed": "Great Pyrenees",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Doreen.png",
+    "website-link": "https://www.bluey.tv/characters/doreen/"
+  },
+  {
+    "id": 19,
+    "name": "Dougie",
+    "gender": "Male",
+    "breed": "Cavapoo",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Dougie.png",
+    "website-link": "https://www.bluey.tv/characters/dougie/"
+  },
+  {
+    "id": 20,
+    "name": "Dusty",
+    "gender": "Female",
+    "breed": "Red Kelpie",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/Dusty-1.png",
+    "website-link": "https://www.bluey.tv/characters/dusty/"
+  },
+  {
+    "id": 21,
+    "name": "Floppy",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Floppy-3.png",
+    "website-link": "https://www.bluey.tv/characters/floppy/"
+  },
+  {
+    "id": 22,
+    "name": "Frisky Heeler",
+    "gender": "",
+    "breed": "English Cocker Spaniel",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/09/Frisky-head.png",
+    "website-link": "https://www.bluey.tv/characters/frisky/"
+  },
+  {
+    "id": 23,
+    "name": "Bob ‘Bobba’ Heeler",
+    "gender": "Male",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bob.png",
+    "website-link": "https://www.bluey.tv/characters/grandpa-bob/"
+  },
+  {
+    "id": 24,
+    "name": "Mort Cattle",
+    "gender": "Male",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Mort.png",
+    "website-link": "https://www.bluey.tv/characters/grandad/"
+  },
+  {
+    "id": 25,
+    "name": "Granny Gladys",
+    "gender": "Female",
+    "breed": "White Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/03/GLADYS-FIX.png",
+    "website-link": "https://www.bluey.tv/characters/granny-gladys/"
+  },
+  {
+    "id": 26,
+    "name": "Granny Janet",
+    "gender": "Female",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/02/Janet-Hero.png",
+    "website-link": "https://www.bluey.tv/characters/granny-janet/"
+  },
+  {
+    "id": 27,
+    "name": "Granny Madge",
+    "gender": "Female",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/02/Madge.png",
+    "website-link": "https://www.bluey.tv/characters/granny-madge/"
+  },
+  {
+    "id": 28,
+    "name": "Granny Rita",
+    "gender": "Female",
+    "breed": "Red Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/03/RITA-FIX.png",
+    "website-link": "https://www.bluey.tv/characters/granny-rita/"
+  },
+  {
+    "id": 29,
+    "name": "Honey",
+    "gender": "Female",
+    "breed": "Beagle",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Honey.png",
+    "website-link": "https://www.bluey.tv/characters/honey/"
+  },
+  {
+    "id": 30,
+    "name": "Indy",
+    "gender": "Female",
+    "breed": "Afghan hound",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/InDY.png",
+    "website-link": "https://www.bluey.tv/characters/indy/"
+  },
+  {
+    "id": 31,
+    "name": "Jack Russell",
+    "gender": "Male",
+    "breed": "Jack Russell",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Jack-1.png",
+    "website-link": "https://www.bluey.tv/characters/jack/"
+  },
+  {
+    "id": 32,
+    "name": "Janelle",
+    "gender": "Female",
+    "breed": "Labrador Retriever",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Janelle.png",
+    "website-link": "https://www.bluey.tv/characters/janelle/"
+  },
+  {
+    "id": 33,
+    "name": "Jean-Luc",
+    "gender": "Male",
+    "breed": "Labrador",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Jean-Luc-1.png",
+    "website-link": "https://www.bluey.tv/characters/jean-luc/"
+  },
+  {
+    "id": 34,
+    "name": "Judo",
+    "gender": "Female",
+    "breed": "Chow Chow",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Judo.png",
+    "website-link": "https://www.bluey.tv/characters/judo/"
+  },
+  {
+    "id": 35,
+    "name": "Kimjim",
+    "gender": "Male",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/KJ-Fixed.png",
+    "website-link": "https://www.bluey.tv/characters/kimjim/"
+  },
+  {
+    "id": 36,
+    "name": "Lila",
+    "gender": "Female",
+    "breed": "Maltese",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/LILA.png",
+    "website-link": "https://www.bluey.tv/characters/lila/"
+  },
+  {
+    "id": 37,
+    "name": "Lucky",
+    "gender": "Male",
+    "breed": "Labrador",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/LUCKY.png",
+    "website-link": "https://www.bluey.tv/characters/lucky/"
+  },
+  {
+    "id": 38,
+    "name": "Pat (Lucky’s Dad)",
+    "gender": "Male",
+    "breed": "Labrador Retriever",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/LUCKTS-DAD.png",
+    "website-link": "https://www.bluey.tv/characters/luckys-dad/"
+  },
+  {
+    "id": 39,
+    "name": "Mackenzie",
+    "gender": "Male",
+    "breed": "Border Collie",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/MACKENZIE-1.png",
+    "website-link": "https://www.bluey.tv/characters/mackenzie/"
+  },
+  {
+    "id": 40,
+    "name": "Major Tom",
+    "gender": "Male",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/09/Tom-Fixed.png",
+    "website-link": "https://www.bluey.tv/characters/major-tom/"
+  },
+  {
+    "id": 41,
+    "name": "Missy",
+    "gender": "Female",
+    "breed": "Australian Terrier",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Missy-1.png",
+    "website-link": "https://www.bluey.tv/characters/missy/"
+  },
+  {
+    "id": 42,
+    "name": "Mrs Retriever",
+    "gender": "Female",
+    "breed": "Golden Retriever",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Mrs-Ret.png",
+    "website-link": "https://www.bluey.tv/characters/mrs-retriever/"
+  },
+  {
+    "id": 43,
+    "name": "Muffin Cupcake Heeler",
+    "gender": "Female",
+    "breed": "White Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Muffin-1.png",
+    "website-link": "https://www.bluey.tv/characters/muffin/"
+  },
+  {
+    "id": 44,
+    "name": "Chris ‘Nana’ Heeler",
+    "gender": "Female",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Nana.png",
+    "website-link": "https://www.bluey.tv/characters/nana/"
+  },
+  {
+    "id": 45,
+    "name": "The Old Pug",
+    "gender": "Female",
+    "breed": "Pug",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/02/PUG-FIXED.png",
+    "website-link": "https://www.bluey.tv/characters/the-old-pug/"
+  },
+  {
+    "id": 46,
+    "name": "Pom Pom",
+    "gender": "Female",
+    "breed": "Teacup Pomeranian",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/POM.png",
+    "website-link": "https://www.bluey.tv/characters/pom-pom/"
+  },
+  {
+    "id": 47,
+    "name": "Rusty",
+    "gender": "Male",
+    "breed": "Red Kelpie",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Rusty-1.png",
+    "website-link": "https://www.bluey.tv/characters/rusty/"
+  },
+  {
+    "id": 48,
+    "name": "Snickers",
+    "gender": "Male",
+    "breed": "Dachshund",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Snickers.png",
+    "website-link": "https://www.bluey.tv/characters/snickers/"
+  },
+  {
+    "id": 49,
+    "name": "Socks",
+    "gender": "Female",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Socks-1.png",
+    "website-link": "https://www.bluey.tv/characters/socks/"
+  },
+  {
+    "id": 50,
+    "name": "The Terriers",
+    "gender": "Male",
+    "breed": "Schnauzer",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Terr.png",
+    "website-link": "https://www.bluey.tv/characters/the-terriers/"
+  },
+  {
+    "id": 51,
+    "name": "Sparky",
+    "gender": "Male",
+    "breed": "Pitbull",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/Tradies-2.png",
+    "website-link": "https://www.bluey.tv/characters/the-tradies/"
+  },
+  {
+    "id": 52,
+    "name": "Chippy",
+    "gender": "Male",
+    "breed": "Afghan Hound",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/Tradies-2.png",
+    "website-link": "https://www.bluey.tv/characters/the-tradies/"
+  },
+  {
+    "id": 53,
+    "name": "Radley ‘Rad’ Heeler",
+    "gender": "Male",
+    "breed": "Red and Blue Heeler Mix",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Rad-1.png",
+    "website-link": "https://www.bluey.tv/characters/uncle-rad/"
+  },
+  {
+    "id": 54,
+    "name": "Stripe Heeler",
+    "gender": "Male",
+    "breed": "Blue Heeler",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Stripe.png",
+    "website-link": "https://www.bluey.tv/characters/uncle-stripe/"
+  },
+  {
+    "id": 55,
+    "name": "Wendy",
+    "gender": "Female",
+    "breed": "Chow Chow",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Wendy.png",
+    "website-link": "https://www.bluey.tv/characters/wendy/"
+  },
+  {
+    "id": 56,
+    "name": "Unicorse",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Unicorse.png",
+    "website-link": "https://www.bluey.tv/characters/unicorse/"
+  },
+  {
+    "id": 57,
+    "name": "Winton",
+    "gender": "Male",
+    "breed": "English Bulldog",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Winton.png",
+    "website-link": "https://www.bluey.tv/characters/winton/"
+  },
+  {
+    "id": 58,
+    "name": "Hecuba",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/HECUBA.png",
+    "website-link": "https://www.bluey.tv/characters/the-gnomes/"
+  },
+  {
+    "id": 59,
+    "name": "Jeremy",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/JEREMY.png",
+    "website-link": "https://www.bluey.tv/characters/the-gnomes/"
+  },
+  {
+    "id": 60,
+    "name": "Meditation Gnome",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/MEDIATATION.png",
+    "website-link": "https://www.bluey.tv/characters/the-gnomes/"
+  },
+  {
+    "id": 61,
+    "name": "Tony",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/TONY.png",
+    "website-link": "https://www.bluey.tv/characters/the-gnomes/"
+  },
+  {
+    "id": 61,
+    "name": "Gerald",
+    "gender": "N/A",
+    "breed": "N/A",
+    "description": "",
+    "locations": [],
+    "image": "https://www.bluey.tv/wp-content/uploads/2024/01/GERALD-1.png",
+    "website-link": "https://www.bluey.tv/characters/the-gnomes/"
+  }
 ]
